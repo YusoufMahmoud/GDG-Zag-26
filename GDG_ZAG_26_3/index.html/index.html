@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Basic HTML Form ELEMENT</h1>
+    <fieldset>
+      <legend><p>personal information</p></legend>
+        <label for="name">Name : </label>
+        <input type="text" id="name" required value="enter your Name">
+    </fieldset>
+    <hr>
+      <fieldset>
+      <legend><p>contact security</p></legend>
+        <label for="email">Email : </label>
+        <input type="email" id="email" required value="enter your Email">
+        <br>
+        <br>
+           <label for="password">Password : </label>
+        <input type="password" id="password" required value="enter your Password">
+    </fieldset>
+     <hr>
+      <fieldset>
+      <legend><p>prefernces</p></legend>
+        <label for="color">Favorate Color</label>
+        <input type="color" id="color">
+    </fieldset>
+     <hr>
+       </fieldset>
+      <fieldset>
+      <legend><p>Range & Option</p></legend>
+        <label for="range">volume range(0-100)</label>
+        <input type="range" id="range">
+        <p>select your Favorate pet</p>
+        <input type="radio" id="dog" name="gender">
+           <label for="dog">DOG</label>
+            <br>
+           <input type="radio" id="cat" name="gender">
+           <label for="cat">Cat</label>
+            <br>
+           <input type="radio" id="bird" name="gender">
+           <label for="bird">Bird</label>
+            <br>
+            <p>Interest</p>
+            <input type="checkbox" id="coding" >
+           <label for="coding">Coding</label>
+            <br>
+            <input type="checkbox" id="music" >
+           <label for="music">Music</label>
+            <br>
+            <input type="checkbox" id="travel" >
+           <label for="travel">Travel</label>
+            <br>   
+    </fieldset>
+     <hr>
+    <fieldset>
+        <legend> selection</legend>
+    <label for="sel">Choose a country</label>
+   <select>
+    <optgroup label="country">
+    <option>United Kindom</option>
+    <option>USA</option>
+    <option>Egypt</option>
+    </optgroup>
+    </select>
+    </fieldset>
+     <hr>
+<fieldset>
+  <legend>Comment</legend>
+ <p>Your Comment</p>
+  <textarea ></textarea>
+</fieldset>
+ <hr>
+<hr>
+<fieldset>
+  <legend>File Upload</legend>
+  <label for="file">Upload a File</label>
+  <input type="file" multiple id="file">
+</fieldset>
+ <hr>
+<fieldset>
+  <legend>Specialized Text Input</legend>
+  <label for="search">Search This Site</label>
+  <input type="search" id="search">
+<br>
+<br>
+<label for="url">Your Website Url : </label>
+<input type="url" id="url" value="https://example.com">
+</fieldset>
+ <hr>
+<fieldset>
+  <legend>Date & Time</legend>
+  <label for="date">Date : </label>
+  <input type="date" id="date">
+  <br>
+    <br>
+   <label for="month">Month : </label>
+  <input type="month" id="month">
+    <br>
+      <br>
+         <label for="time">Time : </label>
+  <input type="time" id="time">
+</fieldset>
+ <hr>
+<fieldset>
+  <legend>Datalist</legend>
+  <label for="list">Choose a Browser : </label>
+  <input type="text" id="list">
+</fieldset>
+ <hr>
+<button type="submit">Send</button>
+<button type="reset">Clear Data</button>
+</body>
+</html>
