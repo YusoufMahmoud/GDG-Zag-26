@@ -1,0 +1,148 @@
+.head
+{
+    height: max-content;
+    width: 100%;
+    background-color:cornflowerblue;
+    overflow: hidden;
+}
+.head p
+{
+   padding: 5px;
+
+ text-align: center;
+ margin: 5px;
+}
+.mid
+{
+    width: 100%;
+    height: max-content;
+    background-color:rgb(240, 255, 255);
+    overflow: hidden;
+}
+.mid .about
+{
+    height: 200px;
+    width: 80%;
+    margin: 10px auto;
+    border: 2px solid black;
+    background: skyblue;
+    overflow: auto;
+}
+.mid .about .ss
+{
+   border: 2px solid black;
+    margin: 6px;
+}
+.mid .j
+{
+    margin-left: 20px;
+}
+.end
+{
+    width: 90%;
+    height: 400px;
+    border: 2px solid black;
+      background: skyblue;
+      margin: auto;
+     
+       
+}
+.end .tr
+{
+    width: 100%;
+    height: 250px;
+    display: flex; 
+    justify-content:center;
+    
+    align-items: center;
+    gap: 0;
+}
+.end .tr .html img
+{
+    display: block;
+    width: 50px;
+    height: 40px;
+ margin:7px auto;
+}
+
+.end .tr .css  img
+{
+    display: block;
+    width: 50px;
+    height: 40px;
+   margin:7px auto;
+
+}
+.end .tr .javascript img
+{
+    display: block;
+    width: 50px;
+    height: 40px;
+    margin:7px auto;
+}
+.end .tr .html p
+{
+    text-align: center;
+}
+.end .tr .css p
+{
+    text-align: center;
+}
+.end .tr .javascript p
+{
+    text-align: center;
+}
+.end .tr .html
+{
+    width:150px;
+    height: max-content;
+   border: 2px black;
+   box-shadow:  3px 3px 2px 3px red, -3px -3px 2px 3px red;
+}
+.end .tr .css
+{
+    width:150px;
+    height: max-content;
+   border: 2px black;
+   box-shadow:  3px 3px 2px 3px red,-3px -3px 2px 3px red;
+}
+.end .tr .javascript
+{
+    width:150px;
+    height: max-content;
+   border: 2px black;
+   box-shadow:  3px 3px 2px 3px red,-3px -3px 2px 3px red;
+}
+.end .tr .html, .css,.javascript
+{
+    margin: 20px;
+    background-color: white;
+}
+.end .e,.s
+{
+margin-left: 20px;
+
+color: white;
+width: max-content;
+}
+.end .bu 
+{
+    background-color:deepskyblue;
+    color: white;
+    width: max-content;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.foot
+{
+    width: 100%;
+    height: 50px;
+  overflow: hidden;
+     background-color:cornflowerblue;
+   margin-top: 5px;
+}
+.foot p
+{
+       text-align: center;
+       padding: 5px;
+}
