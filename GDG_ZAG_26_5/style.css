@@ -1,0 +1,184 @@
+.content
+{
+    background-color: silver;
+    width: 100%;
+    height: 1200px;
+padding-top: 5px;
+    
+}
+.content .one
+{
+    width: 60%;
+    height: max-content;
+    background-color: white;
+   margin: auto;
+    margin-bottom: 20px;   
+      
+}
+.content .one p
+{
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 15px;
+}
+.content .one .onee
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .one .onee img
+{
+    width: 150px;
+    height: 120px;
+    margin-right: 10px;
+}
+.content .one .onee p
+{
+   
+    width: 650px;
+    height: 100px;
+}
+.content .second
+{
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.content .second p
+{
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 15px;
+}
+ .content .second .seconde
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+ .content .second .seconde div
+ {
+    width: 20%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .content .second .seconde div:nth-of-type(1)
+ {
+    background-color: red;
+    border-radius: 10px;
+ }
+  .content .second .seconde div:nth-of-type(2)
+ {
+    background-color: greenyellow;
+     border-radius: 10px;
+     box-shadow: 1px 1px 1px 1px black;
+ }
+  .content .second .seconde div:nth-of-type(3)
+ {
+    background-color: skyblue;
+     border-radius: 10px;
+ }
+  .content .second .seconde div:nth-of-type(4)
+ {
+    background-color: yellow;
+     border-radius: 10px;
+ }
+ .content .third
+ {
+        width: 60%;
+    height: max-content;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+ }
+ .content .third p
+ {
+    font-size: x-large;
+    font-weight: 900;
+    margin-left: 15px;
+ }
+  .content .third .thirdee
+  {
+    height: 150px;
+    width: 100%;
+
+    position: relative;
+  }
+ 
+.content .third .thirdee div
+
+{
+height: 100px ;
+width: 100px;
+}
+
+.content .third .thirdee .one
+{
+    background-color: red;
+    position: absolute;
+    top: 5px;
+    left: 160px;
+}
+.content .third .thirdee .two
+{
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+.content .third .thirdee .three
+{
+    background-color: green;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+}
+.content .third .thirdee .foure
+{
+   background-color:coral;
+    position: absolute;
+    top: 40px;
+    left:
+     280px;
+}
+.content .four
+{
+        width: 60%;
+    height: 450px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.content .four p
+{
+       font-size: x-large;
+    font-weight: 900;
+    margin-left: 15px;
+    
+}
+.content .four table 
+{
+
+ 
+  box-shadow: 1px 1px 4px 4px goldenrod,4px 4px 5px 5px gold,-4px -4px 5px 5px gold;
+margin: auto;
+}
+
+.content .four table th
+{
+      padding: 50px;
+  border: 2px solid black;
+}
+
+.content .four table td
+{
+     padding: 50px;
+  
+  border: 2px solid black;
+}
